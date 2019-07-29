@@ -1,4 +1,4 @@
-# Decimal-Digit-Image-Classification-perceptron-python
+# Decimal-Digit-Image-Classification-perceptron-python "Coding & Machine Learning"
 
 ## Introduction 
 1. In the first part of this project we will design a Perceptron-based classification algorithm that can recognize scanned images of the 10 digits (0 to 9) provided in the file “Assignment 1 Dataset.zip”. The zip file contains three folders: “Train”, “Validation” and “Test”. The “Train” folder contains 240 images for each digit, while each of the “Validation” and “Test” folders contain 20 images for each digit. 
