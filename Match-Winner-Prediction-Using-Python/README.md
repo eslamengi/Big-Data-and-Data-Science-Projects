@@ -29,10 +29,9 @@ When we applied the implemented algorithm on Liverpool matches we predicted whet
 
 **The repository includes**
 
-Decision_Tree_Training_model.py file this is the Training Model code for the project.  
-Decision_Tree_Test_model.py file this is the Test Model code for the project.
-Decision Tree.docx file it shows the selected attributes for each node in descison tree and the final prediction(Home or away wins).  
-confusion Matrix.png it is a confusion matrix that shows the algorithm accuracy when applied to Liverpool data(Testing data)   
-Training_Data.xlsx file this is the data used for training.   
-Liverpool.xlsx file this is the data used for testing the accuracy of Decisin tree algorithm implemented.
+**Decision_Tree_Training_model.py** file this is the Training Model code for the project.  
+**Decision_Tree_Test_model.py** file this is the Test Model code for the project.
+**confusion Matrix.png** it is a confusion matrix that shows the algorithm accuracy when applied to Liverpool data(Testing data)   
+**Training_Data.xlsx** file this is the data used for training.   
+**Liverpool.xlsx file** this is the data used for testing the accuracy of Decisin tree algorithm implemented.
 
