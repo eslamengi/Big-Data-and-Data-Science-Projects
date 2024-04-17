@@ -1,1 +1,62 @@
+#Abstract 
 
+Early detection and treatment of glaucoma are crucial for preventing irreversible vision loss. Automated glaucoma detection methods using deep learning have gained significant traction, with ResNet-50 emerging as a prominent architecture. However, the interpretability of these models remains a challenge, limiting our understanding of their decision-making processes. GradCAM, a technique for visualizing the regions of an input image that are most relevant to a CNN's classification decision, offers a valuable tool for interpreting ResNet-50 in glaucoma detection. By applying GradCAM to the REFUGE dataset, a large collection of retinal fundus images, we can identify the critical features that the model relies on for distinguishing glaucomatous and non-glaucomatous images. This enhanced understanding can inform the development of more reliable and interpretable deep learning models for glaucoma detection. 
+
+#Introduction 
+
+##Problem Definition 
+
+The eye contains of three different layers, the external layer formed by sclera and cornea, the intermediate layer which has two parts (anterior and posterior) and the internal layer which represents the sensory part of the eye and known as retina, Retina is part of central nervous system; the center of the retina is the optic nerve which has shape of circular to oval white area that measures about 2 X 1.5 mm across, The major blood vessels of the retina are radiated from the center of the optic nerve, The optic disc or nerve head is the point where the axons from the retinal ganglion cells leave the eye. 
+
+
+Glaucoma is an eye disease that damages the optic nerve, which transmits visual information from the eye to the brain. Damage to the optic nerve can result in vision loss and blindness. Glaucoma is the leading cause of irreversible blindness in the world, affecting over 75 million people globally, Early detection and treatment are essential to prevent vision loss from glaucoma. However, the early stages of glaucoma are often asymptomatic, and the disease can progress slowly over many years. This makes it difficult to detect glaucoma early on when treatment is most effective, Manual assessment of retinal fundus images is the current standard for glaucoma detection. However, this method is time-consuming, subjective, and prone to error. Automated methods for glaucoma detection using deep learning have the potential to improve the accuracy, efficiency, and objectivity of glaucoma screening, Glaucoma causes loss of the neural reddish tissue and there is progressive cupping of the optic disc – enlargement of the whitish central part. 
+
+Glaucomatous optic disc Fig. 1 
+
+A. Normal Appearing Optic Disc 
+
+ 
+
+B. Glaucomatous appearing optic disc 
+
+ 
+
+C. End stage Glaucomatous Optic Disc 
+
+ 
+
+Project Objective 
+
+The objective of this project is to develop a convolutional neural network (CNN) model using the ResNet-50 architecture to detect glaucoma from retinal fundus images in the REFUGE V1 dataset. 
+
+  
+
+The REFUGE V1 dataset is a publicly available dataset of 1200 high-quality retinal fundus images from patients with and without glaucoma. The images have been annotated with ground truth segmentations of the optic disc and optic cup, as well as clinical glaucoma labels. 
+
+  
+
+The project will involve the following steps: 
+
+  
+
+Data preprocessing: The REFUGE V1 dataset will be preprocessed to ensure that all images are of the same size and format. 
+
+Data Augmentation: The REFUGE V1 dataset is imbalanced towards the Non-Glaucoma Class, Data augmentation is used to up-sample the Glaucoma class images to avoid overfitting. 
+
+Model training: The ResNet-50 model will be trained on the REFUGE V1 dataset to learn to distinguish between glaucomatous and non-glaucomatous images. 
+
+Model evaluation: The trained model will be evaluated on a separate test set of retinal fundus images to assess its performance. 
+
+Model explainability: GradCAM technique is used understand and visualize the most valuable feature area in the input image developed by the model. 
+
+Contributions 
+
+This project will make the following contributions to the field of glaucoma detection: 
+
+Develop a CNN model using the ResNet-50 architecture that is specifically designed for glaucoma detection. 
+
+Evaluate the performance of the CNN model on a large, publicly available dataset of retinal fundus images. 
+
+Make the trained CNN model and its evaluation results publicly available to the research community. 
+
+ 
